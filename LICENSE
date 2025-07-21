@@ -1,0 +1,17 @@
+
+---
+
+## Detalhes Técnicos do `scanner.py` (Esboço)
+
+### Componentes:
+
+- `socket.socket(AF_INET, SOCK_STREAM)`
+- `threading.Thread`
+- `argparse.ArgumentParser`
+- `time.time()` para medir tempo de execução
+
+### Exemplos de argumentos via CLI:
+
+```bash
+python scanner.py --target 192.168.1.1 --mode quick
+python scanner.py --target 10.0.0.1 --mode custom --ports 22,80,443
