@@ -1,5 +1,3 @@
-# infosec-port-scanner
-
 # Port Scanner Personalizado com Python
 
 Um port scanner educacional feito em Python, com foco em ensino de redes e segurança da informação. Permite varredura rápida, completa ou personalizada de portas TCP com multithreading.
